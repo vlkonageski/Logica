@@ -24,3 +24,53 @@ Situação                              Quantidade               Percentual
 3-necessita troca do cabo ou conector    15                        15%
 4-quebrado ou inutilizado                15                        15%
 """
+
+total = 0
+defeito1 = 0
+defeito2 = 0
+defeito3 = 0
+defeito4 = 0
+
+print("-----OPÇÕES----\n"
+    +"1-necessita da esfera\n"
+    +"2-necessita de limpeza\n"
+    +"3-necessita troca do cabo ou conector\n"
+    +"4-quebrado ou inutilizado\n"
+    +"0-Finalizar Programa")
+n = int(input("Informe o codigo do defeito: "))
+
+while n != 0:
+    print("-----OPÇÕES----\n"
+    +"1-necessita da esfera\n"
+    +"2-necessita de limpeza\n"
+    +"3-necessita troca do cabo ou conector\n"
+    +"4-quebrado ou inutilizado\n"
+    +"0-Finalizar Programa")
+    n = int(input("Informe o codigo do defeito: "))
+    if n == 1:
+        total += 1
+        defeito1 += 1
+    elif n == 2:
+        total += 1
+        defeito2 += 1
+    elif n == 3:
+        total += 1
+        defeito3 += 1
+    elif n == 4:
+        total += 1
+        defeito4 += 1
+    else:
+        print("Código Invalido!!!")
+
+p1 = int(defeito1 / total * 100)
+p2 = int(defeito2 / total * 100)
+p3 = int(defeito3 / total * 100)
+p4 = int(defeito4 / total * 100)
+
+print("Quantidade de mouses: {}".format(total))
+print("Situação                                Quantidade                Percentual")
+print("1-necessita da esfera                      {}                       {:.2f}%".format(defeito1, p1))
+print("2-necessita de limpeza                     {}                       {:.2f}%".format(defeito2, p2))
+print("3-necessita troca do cabo ou conector      {}                       {:.2f}%".format(defeito3, p3))
+print("4-quebrado ou inutilizado                  {}                       {:.2f}%".format(defeito4, p4))
+print("Programa Finalizado!!!")
