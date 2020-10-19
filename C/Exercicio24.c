@@ -1,4 +1,3 @@
-package java;
 /*
 Faça um algoritmo que carregue um vetor de 5 elementos inteiros
 e em seguida armazene em um vetor apenas os números pares maiores

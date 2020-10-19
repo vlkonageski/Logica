@@ -1,4 +1,3 @@
-package java;
 /*
 João da Silva, pescador, comprou um microcomputador para controlar o rendimento diário de seu trabalho.
 Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do
@@ -7,4 +6,3 @@ João precisa que você faça um algoritmo que leia a variável 'p' (peso de pei
 Se houver, gravar na variável 'e' (excesso) e na variável 'm' o valor da multa que João deverá pagar.
 Caso contrário mostrar tais variáveis com o conteúdo 'zero'.
 */
-

@@ -1,4 +1,3 @@
-package java;
 /*
 Elabore um algoritmo que dada a idade de um nadador, classifique-o
 em uma das seguintes categorias:

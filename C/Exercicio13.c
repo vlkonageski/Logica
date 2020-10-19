@@ -1,4 +1,3 @@
-package java;
 /*
 Desenvolva um algoritmo que:
 a) leia 4 (quatro) números;

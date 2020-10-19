@@ -1,4 +1,3 @@
-package java;
 /*
 A Secretaria de Meio Ambiente que controla o índice de poluição, mantém 3 grupos de indústrias que são
 altamente poluentes do meio ambiente. O índice de poluição aceitável varia de 0,05 até 0,25. 

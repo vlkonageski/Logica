@@ -1,4 +1,3 @@
-package java;
 /*
 Elabore um algoritmo que leia as variáveis 'c' e 'n', respectivamente código
 e número de horas trabalhadas de um operário. Calcule o salário sabendo-se que

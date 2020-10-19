@@ -1,4 +1,3 @@
-package java;
 /*
 Sua organização acaba de contratar um estagiário para trabalhar no
 suporte de informática, com a intenção de fazer um levantamento
