@@ -1,6 +1,6 @@
 /*Faça um algoritimo para somar dois numeros e multiplicar o resultado pelo primeiro numero */
 
-package java;
+package Java;
 
 import java.util.Scanner;
 
